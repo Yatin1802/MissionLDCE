@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="#">
+    <!-- <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> -->
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="questionDB.js"></script>
+    <title>Mission LDCE</title>
+</head>
+<body>
+    
+    <header class="header bg-primary">
+        <div class="left-title">LDCE Quiz</div>
+        <div class="right-title"> Question No: <span id="qno"></span></div>
+    </header>
+
+    <section class="main-content">
+
+       <div class="question" id="questionTitle"> 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit velit laborum architecto!
+       </div>
+
+       <div class="options-container"  >
+
+            <div class="options" data-options>
+                <input type="radio" id="option1" name="option" value="HTML">
+                <label for="option1">HTML1</label>
+                
+            </div>
+
+            <div class="options" data-options>
+                <input type="radio" id="option2" name="option" value="HTML">
+                <label for="option2">HTML2</label>
+            </div>
+
+            <div class="options" data-options>
+                <input type="radio" id="option3" name="option" value="HTML">
+                <label for="option3">HTML3</label>
+            </div>
+
+            <div class="options" data-options>
+                <input type="radio" id="option4" name="option" value="HTML">
+                <label for="option4">HTML4</label>
+            </div>
+            
+       </div>
+
+    </section>
+
+    <section class="movement">
+
+        <button class="btn" id="previous">
+            Previous
+        </button>
+        
+        <button class="btn" id="next">
+            Next
+        </button>
+    </section>
+
+
+<script type="text/javascript">
+        window.addEventListener('DOMContentLoaded',loadQuestions);
+        document.addEventListener('click', check);
+        document.getElementById('next').addEventListener('click',goNext);
+        document.getElementById('previous').addEventListener('click',goPrevious);
+        
+</script>
+</body>
+</html>
