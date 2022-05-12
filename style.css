@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Charm&family=Quicksand:wght@300&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.2rem;
+}
+header {
+    
+    background: linear-gradient(330deg, rgba(21,148,142,1) 0%, rgba(39,3,113,1) 100%);
+    padding: 1.5em 0.8em;
+ }
+
+.left-title 
+{
+    color:#FFF;   
+    margin:0 0.3rem;   
+}
+
+.right-title 
+{ 
+    color:#FFF; 
+    font-size: 0.9em;
+    margin:0 0.3rem;
+ }
+
+ .bg-primary{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+ }
+
+ .main-content{
+     margin:1.5rem 0.5rem;
+     font-size: 1.1rem;
+     /* width: 95%; */
+ }
+
+.options-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 1rem;
+    /* width: 95%; */
+    /* margin: auto; */
+}
+
+ .options{
+     padding: 10px 10px;
+     width: 80%;
+     /* background-color: rgb(214, 245, 239); */
+     margin: 0.4rem;
+     /* border: solid 1px; */
+     background-color: rgb(194, 226, 235);
+     font-size: 0.9rem;
+     border-radius: 5px;
+          
+ }
+
+
+
+.movement{
+    padding: 20px 0;
+    display: flex;
+    justify-content:space-around;
+}
+
+.btn{
+
+    padding:0.8rem 0.3rem;
+    color: white;
+    background: linear-gradient(330deg, rgba(90,185,180,1) 0%, rgba(15,140,137,1) 100%);
+    border: none;
+    border-radius: 10px;
+    width: 25%; 
+
+}
+
+.right{
+
+    padding: 10px 10px;
+     width: 80%;
+     /* background-color: rgb(214, 245, 239); */
+     margin: 0.4rem;
+     /* border: solid 1px; */
+     /* background-color: rgb(194, 226, 235); */
+     font-size: 0.9rem;
+     border-radius: 5px;
+    background-color: #129764;
+    color: white;
+}
+
+.wrong{
+    padding: 10px 10px;
+     width: 80%;
+     /* background-color: rgb(214, 245, 239); */
+     margin: 0.4rem;
+     /* border: solid 1px; */
+     /* background-color: rgb(194, 226, 235); */
+     font-size: 0.9rem;
+     border-radius: 5px;
+     background-color: #c55f5f;
+     color: white;
+}
